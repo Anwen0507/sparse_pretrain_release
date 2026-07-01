@@ -1,0 +1,3102 @@
+{
+  "model": "jacobcd52/ss_d128_f1",
+  "n_templates": 34,
+  "gap_threshold": 1.0,
+  "rule": "FEMALE iff gap_mean >= +T, MALE iff gap_mean <= -T; gap = she_logit - he_logit (fp32)",
+  "female": [
+    "mia",
+    "lily",
+    "alice",
+    "rita",
+    "maria",
+    "anne",
+    "lena",
+    "kim",
+    "kimmy",
+    "tessa",
+    "tilly",
+    "opal",
+    "cher",
+    "ada",
+    "rosemary"
+  ],
+  "male": [
+    "samuel",
+    "alex",
+    "emmanuel",
+    "luis",
+    "leon",
+    "leo",
+    "peter",
+    "jose",
+    "joseph",
+    "manuel",
+    "max",
+    "sam",
+    "gene",
+    "sammy",
+    "tim",
+    "timothy",
+    "timmy",
+    "roman",
+    "lex",
+    "rex",
+    "axel",
+    "dino",
+    "roger",
+    "jacob",
+    "elmer",
+    "milo",
+    "jasper",
+    "cosmo",
+    "larry",
+    "jud",
+    "red",
+    "pen",
+    "chip",
+    "pablo",
+    "gregor",
+    "stinky"
+  ],
+  "per_name": {
+    "mia": {
+      "name": "mia",
+      "model_gender": "F",
+      "gazetteer": "F",
+      "gap_mean": 3.820030689239502,
+      "margin_mean": 3.820030689239502,
+      "binary_ce": 0.029800478368997574,
+      "consistency": 1.0,
+      "pref": "F"
+    },
+    "lily": {
+      "name": "lily",
+      "model_gender": "F",
+      "gazetteer": "F",
+      "gap_mean": 3.72998309135437,
+      "margin_mean": 3.72998309135437,
+      "binary_ce": 0.03230993449687958,
+      "consistency": 1.0,
+      "pref": "F"
+    },
+    "alice": {
+      "name": "alice",
+      "model_gender": "F",
+      "gazetteer": "F",
+      "gap_mean": 3.4970951080322266,
+      "margin_mean": 3.4970951080322266,
+      "binary_ce": 0.03890819847583771,
+      "consistency": 1.0,
+      "pref": "F"
+    },
+    "rita": {
+      "name": "rita",
+      "model_gender": "F",
+      "gazetteer": "F",
+      "gap_mean": 3.484095811843872,
+      "margin_mean": 3.484095811843872,
+      "binary_ce": 0.03943081945180893,
+      "consistency": 1.0,
+      "pref": "F"
+    },
+    "maria": {
+      "name": "maria",
+      "model_gender": "F",
+      "gazetteer": "F",
+      "gap_mean": 3.383852481842041,
+      "margin_mean": 3.383852481842041,
+      "binary_ce": 0.04260050132870674,
+      "consistency": 1.0,
+      "pref": "F"
+    },
+    "anne": {
+      "name": "anne",
+      "model_gender": "F",
+      "gazetteer": "F",
+      "gap_mean": 3.3011436462402344,
+      "margin_mean": 3.3011436462402344,
+      "binary_ce": 0.045775946229696274,
+      "consistency": 1.0,
+      "pref": "F"
+    },
+    "lena": {
+      "name": "lena",
+      "model_gender": "F",
+      "gazetteer": "F",
+      "gap_mean": 3.2912399768829346,
+      "margin_mean": 3.2912399768829346,
+      "binary_ce": 0.04575151950120926,
+      "consistency": 1.0,
+      "pref": "F"
+    },
+    "kim": {
+      "name": "kim",
+      "model_gender": "F",
+      "gazetteer": "AMB",
+      "gap_mean": 3.160123825073242,
+      "margin_mean": 3.160123825073242,
+      "binary_ce": 0.05072731524705887,
+      "consistency": 1.0,
+      "pref": "F"
+    },
+    "kimmy": {
+      "name": "kimmy",
+      "model_gender": "F",
+      "gazetteer": "F",
+      "gap_mean": 2.7996039390563965,
+      "margin_mean": 2.7996039390563965,
+      "binary_ce": 0.06931660324335098,
+      "consistency": 1.0,
+      "pref": "F"
+    },
+    "tessa": {
+      "name": "tessa",
+      "model_gender": "F",
+      "gazetteer": "F",
+      "gap_mean": 2.471027135848999,
+      "margin_mean": 2.471027135848999,
+      "binary_ce": 0.09040600061416626,
+      "consistency": 1.0,
+      "pref": "F"
+    },
+    "tilly": {
+      "name": "tilly",
+      "model_gender": "F",
+      "gazetteer": "F",
+      "gap_mean": 1.349950909614563,
+      "margin_mean": 1.349950909614563,
+      "binary_ce": 0.24081945419311523,
+      "consistency": 0.970588207244873,
+      "pref": "F"
+    },
+    "opal": {
+      "name": "opal",
+      "model_gender": "F",
+      "gazetteer": "F",
+      "gap_mean": 1.271635890007019,
+      "margin_mean": 1.271635890007019,
+      "binary_ce": 0.25812268257141113,
+      "consistency": 0.970588207244873,
+      "pref": "F"
+    },
+    "cher": {
+      "name": "cher",
+      "model_gender": "F",
+      "gazetteer": "F",
+      "gap_mean": 1.213970422744751,
+      "margin_mean": 1.213970422744751,
+      "binary_ce": 0.27146926522254944,
+      "consistency": 0.970588207244873,
+      "pref": "F"
+    },
+    "ada": {
+      "name": "ada",
+      "model_gender": "F",
+      "gazetteer": "F",
+      "gap_mean": 1.1390745639801025,
+      "margin_mean": 1.1390745639801025,
+      "binary_ce": 0.2881939709186554,
+      "consistency": 0.970588207244873,
+      "pref": "F"
+    },
+    "rosemary": {
+      "name": "rosemary",
+      "model_gender": "F",
+      "gazetteer": "F",
+      "gap_mean": 1.0012000799179077,
+      "margin_mean": 1.0012000799179077,
+      "binary_ce": 0.3278605043888092,
+      "consistency": 0.970588207244873,
+      "pref": "F"
+    },
+    "samuel": {
+      "name": "samuel",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -3.9921250343322754,
+      "margin_mean": 3.9921250343322754,
+      "binary_ce": 0.02432471513748169,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "alex": {
+      "name": "alex",
+      "model_gender": "M",
+      "gazetteer": "AMB",
+      "gap_mean": -3.9734771251678467,
+      "margin_mean": 3.9734771251678467,
+      "binary_ce": 0.02455144375562668,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "emmanuel": {
+      "name": "emmanuel",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -3.948185682296753,
+      "margin_mean": 3.948185682296753,
+      "binary_ce": 0.024808239191770554,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "luis": {
+      "name": "luis",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -3.9160914421081543,
+      "margin_mean": 3.9160914421081543,
+      "binary_ce": 0.025495480746030807,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "leon": {
+      "name": "leon",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -3.888725757598877,
+      "margin_mean": 3.888725757598877,
+      "binary_ce": 0.025756224989891052,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "leo": {
+      "name": "leo",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -3.844694137573242,
+      "margin_mean": 3.844694137573242,
+      "binary_ce": 0.02744988165795803,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "peter": {
+      "name": "peter",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -3.824673891067505,
+      "margin_mean": 3.824673891067505,
+      "binary_ce": 0.027930868789553642,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "jose": {
+      "name": "jose",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -3.8135788440704346,
+      "margin_mean": 3.8135788440704346,
+      "binary_ce": 0.028422657400369644,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "joseph": {
+      "name": "joseph",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -3.0778133869171143,
+      "margin_mean": 3.0778133869171143,
+      "binary_ce": 0.052921362221241,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "manuel": {
+      "name": "manuel",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -2.9153382778167725,
+      "margin_mean": 2.9153382778167725,
+      "binary_ce": 0.058240946382284164,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "max": {
+      "name": "max",
+      "model_gender": "M",
+      "gazetteer": "AMB",
+      "gap_mean": -2.8881232738494873,
+      "margin_mean": 2.8881232738494873,
+      "binary_ce": 0.06145358085632324,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "sam": {
+      "name": "sam",
+      "model_gender": "M",
+      "gazetteer": "AMB",
+      "gap_mean": -2.60414981842041,
+      "margin_mean": 2.60414981842041,
+      "binary_ce": 0.07862545549869537,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "gene": {
+      "name": "gene",
+      "model_gender": "M",
+      "gazetteer": "AMB",
+      "gap_mean": -2.510338544845581,
+      "margin_mean": 2.510338544845581,
+      "binary_ce": 0.08772021532058716,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "sammy": {
+      "name": "sammy",
+      "model_gender": "M",
+      "gazetteer": "AMB",
+      "gap_mean": -2.3465070724487305,
+      "margin_mean": 2.3465070724487305,
+      "binary_ce": 0.09798268973827362,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "tim": {
+      "name": "tim",
+      "model_gender": "M",
+      "gazetteer": "AMB",
+      "gap_mean": -2.066735029220581,
+      "margin_mean": 2.066735029220581,
+      "binary_ce": 0.13041804730892181,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "timothy": {
+      "name": "timothy",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.9072844982147217,
+      "margin_mean": 1.9072844982147217,
+      "binary_ce": 0.14898964762687683,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "timmy": {
+      "name": "timmy",
+      "model_gender": "M",
+      "gazetteer": "AMB",
+      "gap_mean": -1.856170415878296,
+      "margin_mean": 1.856170415878296,
+      "binary_ce": 0.15478135645389557,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "roman": {
+      "name": "roman",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.7252233028411865,
+      "margin_mean": 1.7252233028411865,
+      "binary_ce": 0.17244139313697815,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "lex": {
+      "name": "lex",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.579595685005188,
+      "margin_mean": 1.579595685005188,
+      "binary_ce": 0.19724874198436737,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "rex": {
+      "name": "rex",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.5316705703735352,
+      "margin_mean": 1.5316705703735352,
+      "binary_ce": 0.20994071662425995,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "axel": {
+      "name": "axel",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.4637993574142456,
+      "margin_mean": 1.4637993574142456,
+      "binary_ce": 0.21836185455322266,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "dino": {
+      "name": "dino",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.3588051795959473,
+      "margin_mean": 1.3588051795959473,
+      "binary_ce": 0.239036425948143,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "roger": {
+      "name": "roger",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.308873176574707,
+      "margin_mean": 1.308873176574707,
+      "binary_ce": 0.24733400344848633,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "jacob": {
+      "name": "jacob",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.2736234664916992,
+      "margin_mean": 1.2736234664916992,
+      "binary_ce": 0.25510695576667786,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "elmer": {
+      "name": "elmer",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.191257357597351,
+      "margin_mean": 1.191257357597351,
+      "binary_ce": 0.2751140594482422,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "milo": {
+      "name": "milo",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.1580524444580078,
+      "margin_mean": 1.1580524444580078,
+      "binary_ce": 0.28359031677246094,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "jasper": {
+      "name": "jasper",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.157854676246643,
+      "margin_mean": 1.157854676246643,
+      "binary_ce": 0.2830542325973511,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "cosmo": {
+      "name": "cosmo",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.1124826669692993,
+      "margin_mean": 1.1124826669692993,
+      "binary_ce": 0.2935412526130676,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "larry": {
+      "name": "larry",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.1122390031814575,
+      "margin_mean": 1.1122390031814575,
+      "binary_ce": 0.2936551570892334,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "jud": {
+      "name": "jud",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.1090269088745117,
+      "margin_mean": 1.1090269088745117,
+      "binary_ce": 0.294207364320755,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "red": {
+      "name": "red",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.102817416191101,
+      "margin_mean": 1.102817416191101,
+      "binary_ce": 0.2996828556060791,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "pen": {
+      "name": "pen",
+      "model_gender": "M",
+      "gazetteer": "AMB",
+      "gap_mean": -1.0766575336456299,
+      "margin_mean": 1.0766575336456299,
+      "binary_ce": 0.3056432008743286,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "chip": {
+      "name": "chip",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.0342317819595337,
+      "margin_mean": 1.0342317819595337,
+      "binary_ce": 0.31287407875061035,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "pablo": {
+      "name": "pablo",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.0244742631912231,
+      "margin_mean": 1.0244742631912231,
+      "binary_ce": 0.31648966670036316,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "gregor": {
+      "name": "gregor",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.0170081853866577,
+      "margin_mean": 1.0170081853866577,
+      "binary_ce": 0.317937970161438,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    "stinky": {
+      "name": "stinky",
+      "model_gender": "M",
+      "gazetteer": "M",
+      "gap_mean": -1.0147677659988403,
+      "margin_mean": 1.0147677659988403,
+      "binary_ce": 0.31949132680892944,
+      "consistency": 1.0,
+      "pref": "M"
+    }
+  },
+  "excluded_gender_mismatch": [
+    {
+      "name": "clo",
+      "model_gender": "M",
+      "gazetteer": "F",
+      "gap_mean": -2.9693856239318848,
+      "margin_mean": 2.9693856239318848,
+      "binary_ce": 0.0572660006582737,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    {
+      "name": "gen",
+      "model_gender": "M",
+      "gazetteer": "F",
+      "gap_mean": -2.753443956375122,
+      "margin_mean": 2.753443956375122,
+      "binary_ce": 0.07205712795257568,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    {
+      "name": "lark",
+      "model_gender": "M",
+      "gazetteer": "F",
+      "gap_mean": -1.1593388319015503,
+      "margin_mean": 1.1593388319015503,
+      "binary_ce": 0.28221797943115234,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    {
+      "name": "pansy",
+      "model_gender": "M",
+      "gazetteer": "F",
+      "gap_mean": -1.0123307704925537,
+      "margin_mean": 1.0123307704925537,
+      "binary_ce": 0.3222993016242981,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    {
+      "name": "roxy",
+      "model_gender": "M",
+      "gazetteer": "F",
+      "gap_mean": -1.1411547660827637,
+      "margin_mean": 1.1411547660827637,
+      "binary_ce": 0.2853810489177704,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    {
+      "name": "serene",
+      "model_gender": "M",
+      "gazetteer": "F",
+      "gap_mean": -1.2372859716415405,
+      "margin_mean": 1.2372859716415405,
+      "binary_ce": 0.26627030968666077,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    {
+      "name": "trix",
+      "model_gender": "M",
+      "gazetteer": "F",
+      "gap_mean": -1.4879053831100464,
+      "margin_mean": 1.4879053831100464,
+      "binary_ce": 0.21446700394153595,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    {
+      "name": "trixie",
+      "model_gender": "M",
+      "gazetteer": "F",
+      "gap_mean": -1.4969425201416016,
+      "margin_mean": 1.4969425201416016,
+      "binary_ce": 0.21165601909160614,
+      "consistency": 1.0,
+      "pref": "M"
+    }
+  ],
+  "excluded_pronoun_prefix_above_threshold": [
+    {
+      "name": "henry",
+      "gazetteer": "M",
+      "gap_mean": -4.262363433837891,
+      "margin_mean": 4.262363433837891,
+      "binary_ce": 0.019451484084129333,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    {
+      "name": "henrietta",
+      "gazetteer": "F",
+      "gap_mean": -3.6665170192718506,
+      "margin_mean": 3.6665170192718506,
+      "binary_ce": 0.031012102961540222,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    {
+      "name": "hector",
+      "gazetteer": "M",
+      "gap_mean": -3.3868420124053955,
+      "margin_mean": 3.3868420124053955,
+      "binary_ce": 0.041058871895074844,
+      "consistency": 1.0,
+      "pref": "M"
+    },
+    {
+      "name": "herb",
+      "gazetteer": "M",
+      "gap_mean": 2.6530261039733887,
+      "margin_mean": 2.6530261039733887,
+      "binary_ce": 0.08535771071910858,
+      "consistency": 1.0,
+      "pref": "F"
+    }
+  ],
+  "excluded_pronoun_prefix_all": [
+    "hector",
+    "henrietta",
+    "henry",
+    "herb"
+  ],
+  "excluded_noun_blocklist": [
+    "bear",
+    "buddy",
+    "doll",
+    "dollie",
+    "fox",
+    "king",
+    "kitty",
+    "lion",
+    "mommy",
+    "prince",
+    "shepherd",
+    "skipper",
+    "son",
+    "wolf"
+  ],
+  "excluded_nonalpha": [],
+  "below_threshold": [
+    {
+      "name": "patience",
+      "gap_mean": 0.9943830966949463
+    },
+    {
+      "name": "adam",
+      "gap_mean": 0.9729881286621094
+    },
+    {
+      "name": "mayor",
+      "gap_mean": -0.9710736870765686
+    },
+    {
+      "name": "jimmy",
+      "gap_mean": -0.9698500633239746
+    },
+    {
+      "name": "helen",
+      "gap_mean": -0.959646999835968
+    },
+    {
+      "name": "pippa",
+      "gap_mean": 0.9424328804016113
+    },
+    {
+      "name": "che",
+      "gap_mean": -0.9407204389572144
+    },
+    {
+      "name": "zerk",
+      "gap_mean": -0.9195427894592285
+    },
+    {
+      "name": "cherry",
+      "gap_mean": 0.9098220467567444
+    },
+    {
+      "name": "oliver",
+      "gap_mean": -0.9055166840553284
+    },
+    {
+      "name": "ace",
+      "gap_mean": -0.9033419489860535
+    },
+    {
+      "name": "adore",
+      "gap_mean": 0.8936375975608826
+    },
+    {
+      "name": "drake",
+      "gap_mean": -0.8934955596923828
+    },
+    {
+      "name": "raj",
+      "gap_mean": -0.8701455593109131
+    },
+    {
+      "name": "zippy",
+      "gap_mean": -0.8681012988090515
+    },
+    {
+      "name": "ginger",
+      "gap_mean": -0.8676972389221191
+    },
+    {
+      "name": "teddy",
+      "gap_mean": -0.8604660034179688
+    },
+    {
+      "name": "sophia",
+      "gap_mean": 0.8593551516532898
+    },
+    {
+      "name": "carlos",
+      "gap_mean": -0.8575975298881531
+    },
+    {
+      "name": "easter",
+      "gap_mean": -0.8541853427886963
+    },
+    {
+      "name": "maggie",
+      "gap_mean": -0.8520418405532837
+    },
+    {
+      "name": "tailor",
+      "gap_mean": -0.841586709022522
+    },
+    {
+      "name": "zoe",
+      "gap_mean": -0.8349750638008118
+    },
+    {
+      "name": "jay",
+      "gap_mean": -0.8313683867454529
+    },
+    {
+      "name": "zeus",
+      "gap_mean": -0.8299668431282043
+    },
+    {
+      "name": "penny",
+      "gap_mean": -0.8296937346458435
+    },
+    {
+      "name": "luna",
+      "gap_mean": 0.8135151863098145
+    },
+    {
+      "name": "thorn",
+      "gap_mean": -0.8045229315757751
+    },
+    {
+      "name": "isabella",
+      "gap_mean": 0.800277829170227
+    },
+    {
+      "name": "nina",
+      "gap_mean": 0.7996906638145447
+    },
+    {
+      "name": "chester",
+      "gap_mean": -0.7980942726135254
+    },
+    {
+      "name": "rollo",
+      "gap_mean": -0.7944425344467163
+    },
+    {
+      "name": "rose",
+      "gap_mean": 0.7912917733192444
+    },
+    {
+      "name": "urban",
+      "gap_mean": -0.7771249413490295
+    },
+    {
+      "name": "mike",
+      "gap_mean": -0.7706793546676636
+    },
+    {
+      "name": "gertie",
+      "gap_mean": -0.7685595750808716
+    },
+    {
+      "name": "beth",
+      "gap_mean": -0.7680697441101074
+    },
+    {
+      "name": "vicky",
+      "gap_mean": -0.7680093050003052
+    },
+    {
+      "name": "greg",
+      "gap_mean": -0.7526187896728516
+    },
+    {
+      "name": "emma",
+      "gap_mean": 0.7511531710624695
+    },
+    {
+      "name": "miles",
+      "gap_mean": -0.7508034706115723
+    },
+    {
+      "name": "hunter",
+      "gap_mean": -0.7422983050346375
+    },
+    {
+      "name": "thorny",
+      "gap_mean": -0.7357960343360901
+    },
+    {
+      "name": "fina",
+      "gap_mean": 0.7326463460922241
+    },
+    {
+      "name": "ray",
+      "gap_mean": -0.7308306694030762
+    },
+    {
+      "name": "turner",
+      "gap_mean": -0.7306027412414551
+    },
+    {
+      "name": "jane",
+      "gap_mean": -0.7276029586791992
+    },
+    {
+      "name": "anna",
+      "gap_mean": 0.7202568054199219
+    },
+    {
+      "name": "bliss",
+      "gap_mean": -0.7143552303314209
+    },
+    {
+      "name": "harris",
+      "gap_mean": -0.7019117474555969
+    },
+    {
+      "name": "aurelia",
+      "gap_mean": 0.6984203457832336
+    },
+    {
+      "name": "nova",
+      "gap_mean": 0.6980701088905334
+    },
+    {
+      "name": "bud",
+      "gap_mean": -0.6960411071777344
+    },
+    {
+      "name": "maris",
+      "gap_mean": -0.6922230124473572
+    },
+    {
+      "name": "smith",
+      "gap_mean": -0.6858349442481995
+    },
+    {
+      "name": "parker",
+      "gap_mean": -0.6853629350662231
+    },
+    {
+      "name": "terry",
+      "gap_mean": -0.6831714510917664
+    },
+    {
+      "name": "diego",
+      "gap_mean": -0.6757394671440125
+    },
+    {
+      "name": "harry",
+      "gap_mean": -0.6755673885345459
+    },
+    {
+      "name": "gert",
+      "gap_mean": -0.6736987233161926
+    },
+    {
+      "name": "coraline",
+      "gap_mean": -0.6714158654212952
+    },
+    {
+      "name": "skippy",
+      "gap_mean": -0.6664784550666809
+    },
+    {
+      "name": "jack",
+      "gap_mean": -0.6602120399475098
+    },
+    {
+      "name": "slim",
+      "gap_mean": -0.6597105264663696
+    },
+    {
+      "name": "coralyn",
+      "gap_mean": -0.6531853675842285
+    },
+    {
+      "name": "gerald",
+      "gap_mean": -0.6513264775276184
+    },
+    {
+      "name": "ava",
+      "gap_mean": 0.6491965055465698
+    },
+    {
+      "name": "chas",
+      "gap_mean": -0.6392083168029785
+    },
+    {
+      "name": "nara",
+      "gap_mean": 0.635090172290802
+    },
+    {
+      "name": "basil",
+      "gap_mean": -0.6311163306236267
+    },
+    {
+      "name": "walter",
+      "gap_mean": -0.6292497515678406
+    },
+    {
+      "name": "warden",
+      "gap_mean": -0.6278597116470337
+    },
+    {
+      "name": "raven",
+      "gap_mean": -0.6233792304992676
+    },
+    {
+      "name": "jake",
+      "gap_mean": -0.6208482980728149
+    },
+    {
+      "name": "blare",
+      "gap_mean": -0.618301272392273
+    },
+    {
+      "name": "sophie",
+      "gap_mean": 0.6175673604011536
+    },
+    {
+      "name": "katie",
+      "gap_mean": -0.6175188422203064
+    },
+    {
+      "name": "glory",
+      "gap_mean": -0.6123179197311401
+    },
+    {
+      "name": "shadow",
+      "gap_mean": -0.6085444688796997
+    },
+    {
+      "name": "raina",
+      "gap_mean": 0.605889081954956
+    },
+    {
+      "name": "mag",
+      "gap_mean": -0.6009783148765564
+    },
+    {
+      "name": "major",
+      "gap_mean": -0.5998616218566895
+    },
+    {
+      "name": "binky",
+      "gap_mean": -0.5960435271263123
+    },
+    {
+      "name": "si",
+      "gap_mean": 0.5944886207580566
+    },
+    {
+      "name": "jean",
+      "gap_mean": 0.5902478098869324
+    },
+    {
+      "name": "carla",
+      "gap_mean": -0.5893408060073853
+    },
+    {
+      "name": "riva",
+      "gap_mean": 0.5877227187156677
+    },
+    {
+      "name": "cleo",
+      "gap_mean": -0.5855975151062012
+    },
+    {
+      "name": "oscar",
+      "gap_mean": -0.5850561261177063
+    },
+    {
+      "name": "hall",
+      "gap_mean": -0.5759032368659973
+    },
+    {
+      "name": "tre",
+      "gap_mean": -0.5748213529586792
+    },
+    {
+      "name": "alicia",
+      "gap_mean": 0.5699757933616638
+    },
+    {
+      "name": "buck",
+      "gap_mean": -0.565420389175415
+    },
+    {
+      "name": "coral",
+      "gap_mean": -0.5640698671340942
+    },
+    {
+      "name": "jade",
+      "gap_mean": -0.5629985928535461
+    },
+    {
+      "name": "hill",
+      "gap_mean": -0.5618169903755188
+    },
+    {
+      "name": "walker",
+      "gap_mean": -0.5570397973060608
+    },
+    {
+      "name": "mercy",
+      "gap_mean": -0.5568164587020874
+    },
+    {
+      "name": "flipper",
+      "gap_mean": -0.5561451315879822
+    },
+    {
+      "name": "hank",
+      "gap_mean": -0.5539015531539917
+    },
+    {
+      "name": "dove",
+      "gap_mean": -0.5537981986999512
+    },
+    {
+      "name": "otto",
+      "gap_mean": -0.5501971244812012
+    },
+    {
+      "name": "george",
+      "gap_mean": -0.5499973893165588
+    },
+    {
+      "name": "zeke",
+      "gap_mean": -0.5499073266983032
+    },
+    {
+      "name": "casper",
+      "gap_mean": -0.549371063709259
+    },
+    {
+      "name": "hatty",
+      "gap_mean": -0.5449917912483215
+    },
+    {
+      "name": "duke",
+      "gap_mean": -0.5446611046791077
+    },
+    {
+      "name": "west",
+      "gap_mean": 0.5442999601364136
+    },
+    {
+      "name": "rocky",
+      "gap_mean": -0.5439200401306152
+    },
+    {
+      "name": "diamond",
+      "gap_mean": 0.5424492359161377
+    },
+    {
+      "name": "claus",
+      "gap_mean": -0.5398897528648376
+    },
+    {
+      "name": "ollie",
+      "gap_mean": -0.5324735045433044
+    },
+    {
+      "name": "quill",
+      "gap_mean": -0.5321947932243347
+    },
+    {
+      "name": "merry",
+      "gap_mean": -0.5273908972740173
+    },
+    {
+      "name": "polly",
+      "gap_mean": -0.5241763591766357
+    },
+    {
+      "name": "garcia",
+      "gap_mean": 0.5218280553817749
+    },
+    {
+      "name": "aldo",
+      "gap_mean": -0.5210998058319092
+    },
+    {
+      "name": "teddie",
+      "gap_mean": -0.5175139904022217
+    },
+    {
+      "name": "bel",
+      "gap_mean": -0.5164502263069153
+    },
+    {
+      "name": "zane",
+      "gap_mean": -0.515705406665802
+    },
+    {
+      "name": "waiter",
+      "gap_mean": -0.5118600130081177
+    },
+    {
+      "name": "temple",
+      "gap_mean": 0.5098991990089417
+    },
+    {
+      "name": "cliff",
+      "gap_mean": -0.5079617500305176
+    },
+    {
+      "name": "louis",
+      "gap_mean": -0.5078408718109131
+    },
+    {
+      "name": "pierce",
+      "gap_mean": -0.5078186392784119
+    },
+    {
+      "name": "alia",
+      "gap_mean": 0.5056747794151306
+    },
+    {
+      "name": "pip",
+      "gap_mean": 0.5049853920936584
+    },
+    {
+      "name": "hazel",
+      "gap_mean": -0.5049442648887634
+    },
+    {
+      "name": "skip",
+      "gap_mean": -0.5034439563751221
+    },
+    {
+      "name": "may",
+      "gap_mean": -0.502676248550415
+    },
+    {
+      "name": "tina",
+      "gap_mean": 0.5025889873504639
+    },
+    {
+      "name": "cinderella",
+      "gap_mean": 0.49911829829216003
+    },
+    {
+      "name": "yank",
+      "gap_mean": -0.4943125247955322
+    },
+    {
+      "name": "gusty",
+      "gap_mean": -0.49408408999443054
+    },
+    {
+      "name": "bree",
+      "gap_mean": -0.49320507049560547
+    },
+    {
+      "name": "victor",
+      "gap_mean": -0.49028128385543823
+    },
+    {
+      "name": "aura",
+      "gap_mean": 0.48797607421875
+    },
+    {
+      "name": "hans",
+      "gap_mean": -0.48699888586997986
+    },
+    {
+      "name": "mic",
+      "gap_mean": -0.4850088059902191
+    },
+    {
+      "name": "haven",
+      "gap_mean": -0.4841732084751129
+    },
+    {
+      "name": "winston",
+      "gap_mean": -0.48372721672058105
+    },
+    {
+      "name": "sly",
+      "gap_mean": -0.4820900559425354
+    },
+    {
+      "name": "lucky",
+      "gap_mean": -0.48196423053741455
+    },
+    {
+      "name": "celestia",
+      "gap_mean": 0.4814293384552002
+    },
+    {
+      "name": "frank",
+      "gap_mean": -0.48140087723731995
+    },
+    {
+      "name": "john",
+      "gap_mean": -0.4806276261806488
+    },
+    {
+      "name": "stern",
+      "gap_mean": -0.47938665747642517
+    },
+    {
+      "name": "vic",
+      "gap_mean": -0.47821497917175293
+    },
+    {
+      "name": "calypso",
+      "gap_mean": -0.4760873019695282
+    },
+    {
+      "name": "lust",
+      "gap_mean": 0.4757378399372101
+    },
+    {
+      "name": "marina",
+      "gap_mean": 0.4754307270050049
+    },
+    {
+      "name": "wit",
+      "gap_mean": -0.4751298427581787
+    },
+    {
+      "name": "kit",
+      "gap_mean": 0.47374656796455383
+    },
+    {
+      "name": "bird",
+      "gap_mean": 0.47198912501335144
+    },
+    {
+      "name": "skylar",
+      "gap_mean": -0.4694012701511383
+    },
+    {
+      "name": "iris",
+      "gap_mean": -0.4670473039150238
+    },
+    {
+      "name": "betty",
+      "gap_mean": -0.46673861145973206
+    },
+    {
+      "name": "goober",
+      "gap_mean": -0.46482059359550476
+    },
+    {
+      "name": "bella",
+      "gap_mean": 0.4644431471824646
+    },
+    {
+      "name": "eden",
+      "gap_mean": -0.4636847972869873
+    },
+    {
+      "name": "marigold",
+      "gap_mean": -0.45921894907951355
+    },
+    {
+      "name": "james",
+      "gap_mean": -0.4589438736438751
+    },
+    {
+      "name": "fortune",
+      "gap_mean": -0.4573306441307068
+    },
+    {
+      "name": "flower",
+      "gap_mean": 0.45395416021347046
+    },
+    {
+      "name": "wilbur",
+      "gap_mean": -0.4539359509944916
+    },
+    {
+      "name": "edgar",
+      "gap_mean": 0.4517105221748352
+    },
+    {
+      "name": "harold",
+      "gap_mean": -0.4482782483100891
+    },
+    {
+      "name": "rosa",
+      "gap_mean": 0.448154091835022
+    },
+    {
+      "name": "theo",
+      "gap_mean": -0.4470351040363312
+    },
+    {
+      "name": "honoria",
+      "gap_mean": 0.446370005607605
+    },
+    {
+      "name": "lila",
+      "gap_mean": -0.4443262219429016
+    },
+    {
+      "name": "flint",
+      "gap_mean": -0.4432189464569092
+    },
+    {
+      "name": "edith",
+      "gap_mean": -0.43781840801239014
+    },
+    {
+      "name": "lulu",
+      "gap_mean": 0.4366729259490967
+    },
+    {
+      "name": "skyler",
+      "gap_mean": -0.43403875827789307
+    },
+    {
+      "name": "jim",
+      "gap_mean": -0.43230539560317993
+    },
+    {
+      "name": "gardener",
+      "gap_mean": -0.4319937229156494
+    },
+    {
+      "name": "tuck",
+      "gap_mean": 0.42715778946876526
+    },
+    {
+      "name": "tore",
+      "gap_mean": -0.42324620485305786
+    },
+    {
+      "name": "foster",
+      "gap_mean": -0.4216630160808563
+    },
+    {
+      "name": "guy",
+      "gap_mean": -0.42145946621894836
+    },
+    {
+      "name": "selene",
+      "gap_mean": -0.4172723889350891
+    },
+    {
+      "name": "trace",
+      "gap_mean": -0.4168713390827179
+    },
+    {
+      "name": "cob",
+      "gap_mean": -0.4165973663330078
+    },
+    {
+      "name": "muffin",
+      "gap_mean": -0.4156595766544342
+    },
+    {
+      "name": "april",
+      "gap_mean": -0.41465693712234497
+    },
+    {
+      "name": "kurt",
+      "gap_mean": -0.41440510749816895
+    },
+    {
+      "name": "taffy",
+      "gap_mean": -0.4136297106742859
+    },
+    {
+      "name": "finn",
+      "gap_mean": 0.41310906410217285
+    },
+    {
+      "name": "olwen",
+      "gap_mean": -0.41289958357810974
+    },
+    {
+      "name": "noah",
+      "gap_mean": 0.4065069854259491
+    },
+    {
+      "name": "dusty",
+      "gap_mean": 0.4061921536922455
+    },
+    {
+      "name": "sunshine",
+      "gap_mean": 0.40584176778793335
+    },
+    {
+      "name": "dan",
+      "gap_mean": 0.40507209300994873
+    },
+    {
+      "name": "wallace",
+      "gap_mean": 0.4017336368560791
+    },
+    {
+      "name": "starla",
+      "gap_mean": -0.4009159803390503
+    },
+    {
+      "name": "witty",
+      "gap_mean": -0.40028485655784607
+    },
+    {
+      "name": "forest",
+      "gap_mean": -0.4000057876110077
+    },
+    {
+      "name": "bruno",
+      "gap_mean": -0.3980456590652466
+    },
+    {
+      "name": "ivan",
+      "gap_mean": -0.39630019664764404
+    },
+    {
+      "name": "sean",
+      "gap_mean": -0.39561811089515686
+    },
+    {
+      "name": "ivy",
+      "gap_mean": -0.3953074514865875
+    },
+    {
+      "name": "antonia",
+      "gap_mean": -0.39412426948547363
+    },
+    {
+      "name": "lizzy",
+      "gap_mean": -0.39096513390541077
+    },
+    {
+      "name": "luke",
+      "gap_mean": 0.39092743396759033
+    },
+    {
+      "name": "kai",
+      "gap_mean": 0.38954296708106995
+    },
+    {
+      "name": "doria",
+      "gap_mean": 0.38935190439224243
+    },
+    {
+      "name": "rina",
+      "gap_mean": 0.3862752318382263
+    },
+    {
+      "name": "june",
+      "gap_mean": -0.3855370283126831
+    },
+    {
+      "name": "ruby",
+      "gap_mean": 0.3855307400226593
+    },
+    {
+      "name": "kira",
+      "gap_mean": 0.38516202569007874
+    },
+    {
+      "name": "lea",
+      "gap_mean": 0.3830021619796753
+    },
+    {
+      "name": "page",
+      "gap_mean": -0.3818359375
+    },
+    {
+      "name": "bride",
+      "gap_mean": 0.38120555877685547
+    },
+    {
+      "name": "puff",
+      "gap_mean": -0.37959346175193787
+    },
+    {
+      "name": "paul",
+      "gap_mean": -0.37805426120758057
+    },
+    {
+      "name": "joe",
+      "gap_mean": -0.3764578104019165
+    },
+    {
+      "name": "ana",
+      "gap_mean": 0.37491175532341003
+    },
+    {
+      "name": "hunt",
+      "gap_mean": -0.3717587888240814
+    },
+    {
+      "name": "david",
+      "gap_mean": 0.37096354365348816
+    },
+    {
+      "name": "bunny",
+      "gap_mean": -0.3699989914894104
+    },
+    {
+      "name": "allen",
+      "gap_mean": -0.3685465455055237
+    },
+    {
+      "name": "merrily",
+      "gap_mean": -0.3672570586204529
+    },
+    {
+      "name": "terra",
+      "gap_mean": -0.3653533458709717
+    },
+    {
+      "name": "mona",
+      "gap_mean": 0.36528781056404114
+    },
+    {
+      "name": "job",
+      "gap_mean": 0.3641587495803833
+    },
+    {
+      "name": "albert",
+      "gap_mean": -0.3637690246105194
+    },
+    {
+      "name": "pier",
+      "gap_mean": -0.36303743720054626
+    },
+    {
+      "name": "pace",
+      "gap_mean": -0.3626596927642822
+    },
+    {
+      "name": "willow",
+      "gap_mean": -0.3608167767524719
+    },
+    {
+      "name": "ella",
+      "gap_mean": 0.3591412901878357
+    },
+    {
+      "name": "kate",
+      "gap_mean": -0.35833945870399475
+    },
+    {
+      "name": "val",
+      "gap_mean": 0.35792994499206543
+    },
+    {
+      "name": "tabby",
+      "gap_mean": -0.3573526442050934
+    },
+    {
+      "name": "golda",
+      "gap_mean": 0.35694119334220886
+    },
+    {
+      "name": "ram",
+      "gap_mean": -0.35626131296157837
+    },
+    {
+      "name": "marsh",
+      "gap_mean": -0.35591769218444824
+    },
+    {
+      "name": "tray",
+      "gap_mean": -0.35535064339637756
+    },
+    {
+      "name": "lina",
+      "gap_mean": 0.35418611764907837
+    },
+    {
+      "name": "carl",
+      "gap_mean": -0.3539901375770569
+    },
+    {
+      "name": "poppy",
+      "gap_mean": -0.35320329666137695
+    },
+    {
+      "name": "zed",
+      "gap_mean": -0.3523401618003845
+    },
+    {
+      "name": "marco",
+      "gap_mean": -0.3501744270324707
+    },
+    {
+      "name": "gilly",
+      "gap_mean": -0.34619495272636414
+    },
+    {
+      "name": "gilda",
+      "gap_mean": 0.34496715664863586
+    },
+    {
+      "name": "del",
+      "gap_mean": -0.3427303731441498
+    },
+    {
+      "name": "zora",
+      "gap_mean": -0.34185919165611267
+    },
+    {
+      "name": "sparky",
+      "gap_mean": -0.34085726737976074
+    },
+    {
+      "name": "chariot",
+      "gap_mean": -0.3403642773628235
+    },
+    {
+      "name": "honor",
+      "gap_mean": 0.3388039171695709
+    },
+    {
+      "name": "lola",
+      "gap_mean": -0.33862870931625366
+    },
+    {
+      "name": "rusty",
+      "gap_mean": -0.3377685546875
+    },
+    {
+      "name": "daisy",
+      "gap_mean": -0.33685946464538574
+    },
+    {
+      "name": "steve",
+      "gap_mean": -0.33481109142303467
+    },
+    {
+      "name": "billy",
+      "gap_mean": -0.33386778831481934
+    },
+    {
+      "name": "loria",
+      "gap_mean": 0.33080533146858215
+    },
+    {
+      "name": "sunny",
+      "gap_mean": 0.3303147256374359
+    },
+    {
+      "name": "marie",
+      "gap_mean": -0.323259174823761
+    },
+    {
+      "name": "moss",
+      "gap_mean": -0.3202422857284546
+    },
+    {
+      "name": "france",
+      "gap_mean": 0.3197486400604248
+    },
+    {
+      "name": "aaron",
+      "gap_mean": -0.3195580840110779
+    },
+    {
+      "name": "charity",
+      "gap_mean": -0.3191194236278534
+    },
+    {
+      "name": "juan",
+      "gap_mean": -0.3188895583152771
+    },
+    {
+      "name": "worthy",
+      "gap_mean": -0.3188175857067108
+    },
+    {
+      "name": "goldie",
+      "gap_mean": -0.31879428029060364
+    },
+    {
+      "name": "wilt",
+      "gap_mean": -0.3144592344760895
+    },
+    {
+      "name": "paco",
+      "gap_mean": -0.3143846094608307
+    },
+    {
+      "name": "willy",
+      "gap_mean": -0.3129109740257263
+    },
+    {
+      "name": "aidan",
+      "gap_mean": -0.3128959536552429
+    },
+    {
+      "name": "mary",
+      "gap_mean": -0.31258246302604675
+    },
+    {
+      "name": "karl",
+      "gap_mean": -0.3124483823776245
+    },
+    {
+      "name": "skye",
+      "gap_mean": -0.31229472160339355
+    },
+    {
+      "name": "ivory",
+      "gap_mean": -0.3118535876274109
+    },
+    {
+      "name": "wilson",
+      "gap_mean": -0.31167614459991455
+    },
+    {
+      "name": "carol",
+      "gap_mean": -0.31132933497428894
+    },
+    {
+      "name": "say",
+      "gap_mean": -0.3098706007003784
+    },
+    {
+      "name": "clay",
+      "gap_mean": -0.30738723278045654
+    },
+    {
+      "name": "ash",
+      "gap_mean": -0.30686500668525696
+    },
+    {
+      "name": "birdie",
+      "gap_mean": 0.30294835567474365
+    },
+    {
+      "name": "nari",
+      "gap_mean": 0.3021545708179474
+    },
+    {
+      "name": "grace",
+      "gap_mean": -0.3019042909145355
+    },
+    {
+      "name": "beret",
+      "gap_mean": 0.30175837874412537
+    },
+    {
+      "name": "price",
+      "gap_mean": 0.3012893497943878
+    },
+    {
+      "name": "art",
+      "gap_mean": 0.30095571279525757
+    },
+    {
+      "name": "orion",
+      "gap_mean": -0.29845401644706726
+    },
+    {
+      "name": "sting",
+      "gap_mean": -0.298304945230484
+    },
+    {
+      "name": "marry",
+      "gap_mean": -0.298224538564682
+    },
+    {
+      "name": "ted",
+      "gap_mean": -0.2971481382846832
+    },
+    {
+      "name": "floria",
+      "gap_mean": 0.2953863739967346
+    },
+    {
+      "name": "merlin",
+      "gap_mean": -0.29413244128227234
+    },
+    {
+      "name": "ann",
+      "gap_mean": 0.293998658657074
+    },
+    {
+      "name": "elden",
+      "gap_mean": -0.2927308976650238
+    },
+    {
+      "name": "zola",
+      "gap_mean": 0.29267024993896484
+    },
+    {
+      "name": "bob",
+      "gap_mean": -0.28913941979408264
+    },
+    {
+      "name": "dawn",
+      "gap_mean": 0.2887612581253052
+    },
+    {
+      "name": "chuck",
+      "gap_mean": 0.2878802716732025
+    },
+    {
+      "name": "rice",
+      "gap_mean": -0.2851735055446625
+    },
+    {
+      "name": "dot",
+      "gap_mean": -0.2829332649707794
+    },
+    {
+      "name": "yard",
+      "gap_mean": 0.28136536478996277
+    },
+    {
+      "name": "willa",
+      "gap_mean": 0.28133442997932434
+    },
+    {
+      "name": "bobby",
+      "gap_mean": -0.27884748578071594
+    },
+    {
+      "name": "holly",
+      "gap_mean": -0.2787144184112549
+    },
+    {
+      "name": "nell",
+      "gap_mean": 0.2785872220993042
+    },
+    {
+      "name": "saw",
+      "gap_mean": -0.27848532795906067
+    },
+    {
+      "name": "fedora",
+      "gap_mean": -0.27744153141975403
+    },
+    {
+      "name": "eve",
+      "gap_mean": -0.271906316280365
+    },
+    {
+      "name": "omar",
+      "gap_mean": -0.2703413963317871
+    },
+    {
+      "name": "petra",
+      "gap_mean": 0.2669036090373993
+    },
+    {
+      "name": "lon",
+      "gap_mean": 0.2663286328315735
+    },
+    {
+      "name": "dave",
+      "gap_mean": 0.26604142785072327
+    },
+    {
+      "name": "olivia",
+      "gap_mean": 0.2659878432750702
+    },
+    {
+      "name": "elena",
+      "gap_mean": 0.265408456325531
+    },
+    {
+      "name": "dotty",
+      "gap_mean": -0.26534518599510193
+    },
+    {
+      "name": "gina",
+      "gap_mean": 0.26480668783187866
+    },
+    {
+      "name": "ellie",
+      "gap_mean": -0.2639804482460022
+    },
+    {
+      "name": "tully",
+      "gap_mean": -0.262019544839859
+    },
+    {
+      "name": "petunia",
+      "gap_mean": 0.2597470283508301
+    },
+    {
+      "name": "web",
+      "gap_mean": 0.25966450572013855
+    },
+    {
+      "name": "torin",
+      "gap_mean": -0.25936031341552734
+    },
+    {
+      "name": "win",
+      "gap_mean": -0.25848349928855896
+    },
+    {
+      "name": "rick",
+      "gap_mean": -0.25702038407325745
+    },
+    {
+      "name": "rosy",
+      "gap_mean": -0.25696054100990295
+    },
+    {
+      "name": "glen",
+      "gap_mean": -0.2560688257217407
+    },
+    {
+      "name": "row",
+      "gap_mean": 0.25287964940071106
+    },
+    {
+      "name": "zaria",
+      "gap_mean": -0.25204017758369446
+    },
+    {
+      "name": "bay",
+      "gap_mean": -0.25103506445884705
+    },
+    {
+      "name": "crystal",
+      "gap_mean": 0.24984079599380493
+    },
+    {
+      "name": "eliza",
+      "gap_mean": 0.24909639358520508
+    },
+    {
+      "name": "gary",
+      "gap_mean": -0.2485283613204956
+    },
+    {
+      "name": "rock",
+      "gap_mean": -0.24833644926548004
+    },
+    {
+      "name": "nora",
+      "gap_mean": 0.24816131591796875
+    },
+    {
+      "name": "park",
+      "gap_mean": -0.24706897139549255
+    },
+    {
+      "name": "thomas",
+      "gap_mean": 0.24390725791454315
+    },
+    {
+      "name": "ally",
+      "gap_mean": -0.24242480099201202
+    },
+    {
+      "name": "jo",
+      "gap_mean": -0.24185870587825775
+    },
+    {
+      "name": "floris",
+      "gap_mean": -0.24093879759311676
+    },
+    {
+      "name": "rea",
+      "gap_mean": 0.23986327648162842
+    },
+    {
+      "name": "ester",
+      "gap_mean": -0.23971055448055267
+    },
+    {
+      "name": "con",
+      "gap_mean": -0.23729072511196136
+    },
+    {
+      "name": "amy",
+      "gap_mean": -0.23642410337924957
+    },
+    {
+      "name": "bessie",
+      "gap_mean": -0.23615920543670654
+    },
+    {
+      "name": "stella",
+      "gap_mean": 0.2352738231420517
+    },
+    {
+      "name": "reg",
+      "gap_mean": 0.23517291247844696
+    },
+    {
+      "name": "terri",
+      "gap_mean": -0.23164086043834686
+    },
+    {
+      "name": "er",
+      "gap_mean": -0.23163475096225739
+    },
+    {
+      "name": "cally",
+      "gap_mean": -0.23160970211029053
+    },
+    {
+      "name": "sara",
+      "gap_mean": 0.2315640151500702
+    },
+    {
+      "name": "greta",
+      "gap_mean": -0.23153918981552124
+    },
+    {
+      "name": "peg",
+      "gap_mean": 0.22967535257339478
+    },
+    {
+      "name": "vale",
+      "gap_mean": 0.22857560217380524
+    },
+    {
+      "name": "dew",
+      "gap_mean": 0.22829996049404144
+    },
+    {
+      "name": "valentine",
+      "gap_mean": 0.22818267345428467
+    },
+    {
+      "name": "ransom",
+      "gap_mean": 0.22497186064720154
+    },
+    {
+      "name": "emily",
+      "gap_mean": 0.22384412586688995
+    },
+    {
+      "name": "cherish",
+      "gap_mean": -0.22348250448703766
+    },
+    {
+      "name": "cora",
+      "gap_mean": 0.22048594057559967
+    },
+    {
+      "name": "goose",
+      "gap_mean": -0.220414400100708
+    },
+    {
+      "name": "mina",
+      "gap_mean": 0.22024790942668915
+    },
+    {
+      "name": "will",
+      "gap_mean": -0.2199113816022873
+    },
+    {
+      "name": "gray",
+      "gap_mean": 0.21818196773529053
+    },
+    {
+      "name": "lucy",
+      "gap_mean": 0.21754992008209229
+    },
+    {
+      "name": "orin",
+      "gap_mean": 0.21570199728012085
+    },
+    {
+      "name": "felix",
+      "gap_mean": -0.21509352326393127
+    },
+    {
+      "name": "lamb",
+      "gap_mean": -0.21372748911380768
+    },
+    {
+      "name": "bea",
+      "gap_mean": 0.21340274810791016
+    },
+    {
+      "name": "simon",
+      "gap_mean": -0.21294383704662323
+    },
+    {
+      "name": "cookie",
+      "gap_mean": -0.21076925098896027
+    },
+    {
+      "name": "rich",
+      "gap_mean": -0.21007484197616577
+    },
+    {
+      "name": "griffin",
+      "gap_mean": -0.20945481956005096
+    },
+    {
+      "name": "tallia",
+      "gap_mean": 0.20931272208690643
+    },
+    {
+      "name": "lee",
+      "gap_mean": -0.20901548862457275
+    },
+    {
+      "name": "love",
+      "gap_mean": 0.2079046070575714
+    },
+    {
+      "name": "pearl",
+      "gap_mean": 0.20709192752838135
+    },
+    {
+      "name": "vi",
+      "gap_mean": 0.20606672763824463
+    },
+    {
+      "name": "em",
+      "gap_mean": 0.20512700080871582
+    },
+    {
+      "name": "van",
+      "gap_mean": -0.20374557375907898
+    },
+    {
+      "name": "auria",
+      "gap_mean": 0.2012537568807602
+    },
+    {
+      "name": "louie",
+      "gap_mean": -0.20044143497943878
+    },
+    {
+      "name": "joy",
+      "gap_mean": 0.20002977550029755
+    },
+    {
+      "name": "gates",
+      "gap_mean": -0.19696128368377686
+    },
+    {
+      "name": "shorty",
+      "gap_mean": -0.19647157192230225
+    },
+    {
+      "name": "sky",
+      "gap_mean": -0.1960776448249817
+    },
+    {
+      "name": "oren",
+      "gap_mean": -0.19530437886714935
+    },
+    {
+      "name": "ned",
+      "gap_mean": 0.19499172270298004
+    },
+    {
+      "name": "steward",
+      "gap_mean": -0.19464434683322906
+    },
+    {
+      "name": "fawn",
+      "gap_mean": -0.1934097558259964
+    },
+    {
+      "name": "thalia",
+      "gap_mean": -0.1930921971797943
+    },
+    {
+      "name": "fancy",
+      "gap_mean": -0.19252723455429077
+    },
+    {
+      "name": "buster",
+      "gap_mean": -0.19215258955955505
+    },
+    {
+      "name": "la",
+      "gap_mean": -0.19096346199512482
+    },
+    {
+      "name": "talia",
+      "gap_mean": 0.19049665331840515
+    },
+    {
+      "name": "rad",
+      "gap_mean": 0.18978746235370636
+    },
+    {
+      "name": "octavius",
+      "gap_mean": 0.18848559260368347
+    },
+    {
+      "name": "lenny",
+      "gap_mean": -0.1881563812494278
+    },
+    {
+      "name": "case",
+      "gap_mean": -0.1872865855693817
+    },
+    {
+      "name": "amara",
+      "gap_mean": -0.18511530756950378
+    },
+    {
+      "name": "faith",
+      "gap_mean": -0.18363654613494873
+    },
+    {
+      "name": "tootsie",
+      "gap_mean": -0.18180881440639496
+    },
+    {
+      "name": "xena",
+      "gap_mean": 0.18157745897769928
+    },
+    {
+      "name": "hope",
+      "gap_mean": 0.18152135610580444
+    },
+    {
+      "name": "celeste",
+      "gap_mean": 0.18123731017112732
+    },
+    {
+      "name": "berry",
+      "gap_mean": 0.18113425374031067
+    },
+    {
+      "name": "pedro",
+      "gap_mean": 0.17976441979408264
+    },
+    {
+      "name": "liora",
+      "gap_mean": -0.17898809909820557
+    },
+    {
+      "name": "drew",
+      "gap_mean": 0.17791889607906342
+    },
+    {
+      "name": "min",
+      "gap_mean": -0.17604051530361176
+    },
+    {
+      "name": "sally",
+      "gap_mean": -0.1758720576763153
+    },
+    {
+      "name": "tom",
+      "gap_mean": 0.1757032573223114
+    },
+    {
+      "name": "chase",
+      "gap_mean": -0.17541153728961945
+    },
+    {
+      "name": "faye",
+      "gap_mean": -0.17446637153625488
+    },
+    {
+      "name": "fiona",
+      "gap_mean": 0.17336666584014893
+    },
+    {
+      "name": "sandy",
+      "gap_mean": -0.1732088327407837
+    },
+    {
+      "name": "freddy",
+      "gap_mean": -0.17058883607387543
+    },
+    {
+      "name": "honey",
+      "gap_mean": -0.17050518095493317
+    },
+    {
+      "name": "socrates",
+      "gap_mean": -0.17045697569847107
+    },
+    {
+      "name": "danny",
+      "gap_mean": 0.16933196783065796
+    },
+    {
+      "name": "gigi",
+      "gap_mean": -0.16856622695922852
+    },
+    {
+      "name": "lance",
+      "gap_mean": -0.16759228706359863
+    },
+    {
+      "name": "star",
+      "gap_mean": -0.1659531444311142
+    },
+    {
+      "name": "myra",
+      "gap_mean": -0.16060897707939148
+    },
+    {
+      "name": "wendy",
+      "gap_mean": 0.15897545218467712
+    },
+    {
+      "name": "dora",
+      "gap_mean": 0.1588844507932663
+    },
+    {
+      "name": "freddie",
+      "gap_mean": -0.15866146981716156
+    },
+    {
+      "name": "elsa",
+      "gap_mean": 0.1577456295490265
+    },
+    {
+      "name": "ed",
+      "gap_mean": -0.15739694237709045
+    },
+    {
+      "name": "patrick",
+      "gap_mean": -0.15640559792518616
+    },
+    {
+      "name": "delia",
+      "gap_mean": -0.15369199216365814
+    },
+    {
+      "name": "violet",
+      "gap_mean": 0.15297333896160126
+    },
+    {
+      "name": "ev",
+      "gap_mean": -0.1514032483100891
+    },
+    {
+      "name": "codi",
+      "gap_mean": -0.15058770775794983
+    },
+    {
+      "name": "candy",
+      "gap_mean": -0.15021459758281708
+    },
+    {
+      "name": "angel",
+      "gap_mean": -0.14991724491119385
+    },
+    {
+      "name": "pet",
+      "gap_mean": 0.14916731417179108
+    },
+    {
+      "name": "piggy",
+      "gap_mean": 0.14793288707733154
+    },
+    {
+      "name": "olive",
+      "gap_mean": -0.14729684591293335
+    },
+    {
+      "name": "barn",
+      "gap_mean": 0.14544038474559784
+    },
+    {
+      "name": "toby",
+      "gap_mean": 0.1454174667596817
+    },
+    {
+      "name": "harmony",
+      "gap_mean": -0.14193515479564667
+    },
+    {
+      "name": "tally",
+      "gap_mean": -0.1418401002883911
+    },
+    {
+      "name": "bertie",
+      "gap_mean": -0.1401200294494629
+    },
+    {
+      "name": "olin",
+      "gap_mean": -0.13928446173667908
+    },
+    {
+      "name": "bill",
+      "gap_mean": -0.13740761578083038
+    },
+    {
+      "name": "daniel",
+      "gap_mean": 0.13632257282733917
+    },
+    {
+      "name": "royal",
+      "gap_mean": -0.1362205147743225
+    },
+    {
+      "name": "mark",
+      "gap_mean": -0.13549673557281494
+    },
+    {
+      "name": "shel",
+      "gap_mean": 0.12873494625091553
+    },
+    {
+      "name": "annie",
+      "gap_mean": 0.1276044398546219
+    },
+    {
+      "name": "chance",
+      "gap_mean": 0.1256071776151657
+    },
+    {
+      "name": "stew",
+      "gap_mean": -0.12492381781339645
+    },
+    {
+      "name": "len",
+      "gap_mean": -0.12452960014343262
+    },
+    {
+      "name": "clara",
+      "gap_mean": 0.1245008111000061
+    },
+    {
+      "name": "shelly",
+      "gap_mean": -0.12393639981746674
+    },
+    {
+      "name": "norm",
+      "gap_mean": 0.12379870563745499
+    },
+    {
+      "name": "liam",
+      "gap_mean": 0.12205368280410767
+    },
+    {
+      "name": "worth",
+      "gap_mean": -0.11897306144237518
+    },
+    {
+      "name": "nola",
+      "gap_mean": -0.11756442487239838
+    },
+    {
+      "name": "ward",
+      "gap_mean": 0.11610881984233856
+    },
+    {
+      "name": "scarlet",
+      "gap_mean": -0.11526967585086823
+    },
+    {
+      "name": "astra",
+      "gap_mean": 0.11502567678689957
+    },
+    {
+      "name": "doe",
+      "gap_mean": -0.11487004160881042
+    },
+    {
+      "name": "fred",
+      "gap_mean": 0.11471470445394516
+    },
+    {
+      "name": "kevin",
+      "gap_mean": 0.11397582292556763
+    },
+    {
+      "name": "di",
+      "gap_mean": 0.11309201270341873
+    },
+    {
+      "name": "lora",
+      "gap_mean": 0.1128179207444191
+    },
+    {
+      "name": "else",
+      "gap_mean": -0.1120520830154419
+    },
+    {
+      "name": "wells",
+      "gap_mean": -0.10898444801568985
+    },
+    {
+      "name": "amber",
+      "gap_mean": -0.10838662087917328
+    },
+    {
+      "name": "cinnamon",
+      "gap_mean": 0.10800480842590332
+    },
+    {
+      "name": "wade",
+      "gap_mean": 0.10792996734380722
+    },
+    {
+      "name": "charlie",
+      "gap_mean": -0.10598083585500717
+    },
+    {
+      "name": "camel",
+      "gap_mean": 0.1059512346982956
+    },
+    {
+      "name": "brook",
+      "gap_mean": -0.10444280505180359
+    },
+    {
+      "name": "grove",
+      "gap_mean": 0.10408063232898712
+    },
+    {
+      "name": "phil",
+      "gap_mean": -0.10371622443199158
+    },
+    {
+      "name": "kora",
+      "gap_mean": -0.10049173980951309
+    },
+    {
+      "name": "shellie",
+      "gap_mean": -0.09818705916404724
+    },
+    {
+      "name": "ag",
+      "gap_mean": 0.09538421034812927
+    },
+    {
+      "name": "arthur",
+      "gap_mean": 0.09517842531204224
+    },
+    {
+      "name": "ham",
+      "gap_mean": -0.09446900337934494
+    },
+    {
+      "name": "flo",
+      "gap_mean": -0.09380074590444565
+    },
+    {
+      "name": "sol",
+      "gap_mean": 0.09249789267778397
+    },
+    {
+      "name": "elysia",
+      "gap_mean": 0.09048864245414734
+    },
+    {
+      "name": "rob",
+      "gap_mean": -0.09028464555740356
+    },
+    {
+      "name": "rosie",
+      "gap_mean": -0.08950036764144897
+    },
+    {
+      "name": "tia",
+      "gap_mean": 0.0884033814072609
+    },
+    {
+      "name": "town",
+      "gap_mean": 0.08698610216379166
+    },
+    {
+      "name": "alley",
+      "gap_mean": 0.08651688694953918
+    },
+    {
+      "name": "rem",
+      "gap_mean": -0.0864366888999939
+    },
+    {
+      "name": "brooks",
+      "gap_mean": -0.08623432368040085
+    },
+    {
+      "name": "hasty",
+      "gap_mean": -0.08603023737668991
+    },
+    {
+      "name": "fern",
+      "gap_mean": -0.08536146581172943
+    },
+    {
+      "name": "tony",
+      "gap_mean": -0.08248525857925415
+    },
+    {
+      "name": "denny",
+      "gap_mean": -0.08147571980953217
+    },
+    {
+      "name": "hannah",
+      "gap_mean": -0.08100564032793045
+    },
+    {
+      "name": "pat",
+      "gap_mean": 0.0801575779914856
+    },
+    {
+      "name": "shell",
+      "gap_mean": 0.07971654087305069
+    },
+    {
+      "name": "bo",
+      "gap_mean": 0.07937533408403397
+    },
+    {
+      "name": "tera",
+      "gap_mean": 0.07884692400693893
+    },
+    {
+      "name": "robby",
+      "gap_mean": 0.07877828180789948
+    },
+    {
+      "name": "lane",
+      "gap_mean": -0.0781158059835434
+    },
+    {
+      "name": "artie",
+      "gap_mean": 0.07670465856790543
+    },
+    {
+      "name": "suzy",
+      "gap_mean": -0.07452763617038727
+    },
+    {
+      "name": "lizzie",
+      "gap_mean": -0.07399740815162659
+    },
+    {
+      "name": "mae",
+      "gap_mean": -0.07227939367294312
+    },
+    {
+      "name": "goldia",
+      "gap_mean": 0.07152304798364639
+    },
+    {
+      "name": "fara",
+      "gap_mean": -0.07136045396327972
+    },
+    {
+      "name": "trip",
+      "gap_mean": -0.07110262662172318
+    },
+    {
+      "name": "baron",
+      "gap_mean": -0.07004283368587494
+    },
+    {
+      "name": "misty",
+      "gap_mean": 0.06965108215808868
+    },
+    {
+      "name": "flora",
+      "gap_mean": 0.06951212882995605
+    },
+    {
+      "name": "al",
+      "gap_mean": 0.06826861947774887
+    },
+    {
+      "name": "bell",
+      "gap_mean": -0.06825495511293411
+    },
+    {
+      "name": "harmonia",
+      "gap_mean": -0.06778223067522049
+    },
+    {
+      "name": "windy",
+      "gap_mean": 0.06744930893182755
+    },
+    {
+      "name": "benny",
+      "gap_mean": -0.06652090698480606
+    },
+    {
+      "name": "stormy",
+      "gap_mean": -0.06580645591020584
+    },
+    {
+      "name": "sarah",
+      "gap_mean": 0.0656718909740448
+    },
+    {
+      "name": "mira",
+      "gap_mean": -0.06503182649612427
+    },
+    {
+      "name": "storm",
+      "gap_mean": 0.06283929944038391
+    },
+    {
+      "name": "jasmine",
+      "gap_mean": -0.06244739517569542
+    },
+    {
+      "name": "etta",
+      "gap_mean": -0.061916399747133255
+    },
+    {
+      "name": "pete",
+      "gap_mean": -0.06138516962528229
+    },
+    {
+      "name": "valeria",
+      "gap_mean": 0.060211364179849625
+    },
+    {
+      "name": "melody",
+      "gap_mean": 0.05998925492167473
+    },
+    {
+      "name": "eli",
+      "gap_mean": 0.059929147362709045
+    },
+    {
+      "name": "wood",
+      "gap_mean": 0.05933408811688423
+    },
+    {
+      "name": "rufus",
+      "gap_mean": 0.05932559818029404
+    },
+    {
+      "name": "fae",
+      "gap_mean": -0.05931767448782921
+    },
+    {
+      "name": "carry",
+      "gap_mean": -0.05917394906282425
+    },
+    {
+      "name": "cal",
+      "gap_mean": 0.0587010532617569
+    },
+    {
+      "name": "velvet",
+      "gap_mean": 0.05822749063372612
+    },
+    {
+      "name": "garland",
+      "gap_mean": 0.057286620140075684
+    },
+    {
+      "name": "ron",
+      "gap_mean": 0.05645248293876648
+    },
+    {
+      "name": "tuesday",
+      "gap_mean": -0.05495074763894081
+    },
+    {
+      "name": "bard",
+      "gap_mean": 0.051834527403116226
+    },
+    {
+      "name": "way",
+      "gap_mean": 0.05091966688632965
+    },
+    {
+      "name": "benji",
+      "gap_mean": -0.05059908330440521
+    },
+    {
+      "name": "don",
+      "gap_mean": -0.04991087317466736
+    },
+    {
+      "name": "lou",
+      "gap_mean": -0.04922426491975784
+    },
+    {
+      "name": "mel",
+      "gap_mean": -0.04898795112967491
+    },
+    {
+      "name": "wally",
+      "gap_mean": -0.04798011854290962
+    },
+    {
+      "name": "gale",
+      "gap_mean": 0.04656236246228218
+    },
+    {
+      "name": "verge",
+      "gap_mean": 0.046560756862163544
+    },
+    {
+      "name": "robin",
+      "gap_mean": 0.045339442789554596
+    },
+    {
+      "name": "jewel",
+      "gap_mean": 0.04383797571063042
+    },
+    {
+      "name": "elora",
+      "gap_mean": 0.04338182508945465
+    },
+    {
+      "name": "cat",
+      "gap_mean": -0.04311782494187355
+    },
+    {
+      "name": "lay",
+      "gap_mean": 0.042802587151527405
+    },
+    {
+      "name": "rod",
+      "gap_mean": -0.04193614423274994
+    },
+    {
+      "name": "rhea",
+      "gap_mean": -0.04040875285863876
+    },
+    {
+      "name": "spike",
+      "gap_mean": -0.039349451661109924
+    },
+    {
+      "name": "moria",
+      "gap_mean": -0.03834955766797066
+    },
+    {
+      "name": "aurora",
+      "gap_mean": -0.03692532330751419
+    },
+    {
+      "name": "sim",
+      "gap_mean": 0.03635165095329285
+    },
+    {
+      "name": "tara",
+      "gap_mean": 0.03614269942045212
+    },
+    {
+      "name": "noble",
+      "gap_mean": 0.035824719816446304
+    },
+    {
+      "name": "ali",
+      "gap_mean": 0.03471868112683296
+    },
+    {
+      "name": "boris",
+      "gap_mean": -0.03434891626238823
+    },
+    {
+      "name": "glad",
+      "gap_mean": -0.03419094160199165
+    },
+    {
+      "name": "kiri",
+      "gap_mean": 0.03418993204832077
+    },
+    {
+      "name": "bert",
+      "gap_mean": 0.034101977944374084
+    },
+    {
+      "name": "tome",
+      "gap_mean": 0.033695682883262634
+    },
+    {
+      "name": "lira",
+      "gap_mean": 0.033598367124795914
+    },
+    {
+      "name": "wanda",
+      "gap_mean": 0.031559139490127563
+    },
+    {
+      "name": "wash",
+      "gap_mean": -0.030457692220807076
+    },
+    {
+      "name": "gus",
+      "gap_mean": -0.03032420575618744
+    },
+    {
+      "name": "ariel",
+      "gap_mean": 0.030022775754332542
+    },
+    {
+      "name": "kin",
+      "gap_mean": 0.028279732912778854
+    },
+    {
+      "name": "nixie",
+      "gap_mean": -0.026685910299420357
+    },
+    {
+      "name": "sue",
+      "gap_mean": 0.024291319772601128
+    },
+    {
+      "name": "barry",
+      "gap_mean": 0.023864220827817917
+    },
+    {
+      "name": "deny",
+      "gap_mean": -0.02328799106180668
+    },
+    {
+      "name": "finley",
+      "gap_mean": 0.02287040650844574
+    },
+    {
+      "name": "spud",
+      "gap_mean": -0.022828802466392517
+    },
+    {
+      "name": "susan",
+      "gap_mean": -0.022104796022176743
+    },
+    {
+      "name": "nico",
+      "gap_mean": -0.0194317027926445
+    },
+    {
+      "name": "venus",
+      "gap_mean": -0.01938554085791111
+    },
+    {
+      "name": "maya",
+      "gap_mean": 0.01834915578365326
+    },
+    {
+      "name": "reed",
+      "gap_mean": -0.018069013953208923
+    },
+    {
+      "name": "grant",
+      "gap_mean": 0.016779422760009766
+    },
+    {
+      "name": "wake",
+      "gap_mean": 0.015753353014588356
+    },
+    {
+      "name": "bee",
+      "gap_mean": 0.01435474120080471
+    },
+    {
+      "name": "happy",
+      "gap_mean": -0.012711286544799805
+    },
+    {
+      "name": "derby",
+      "gap_mean": -0.011705833487212658
+    },
+    {
+      "name": "zia",
+      "gap_mean": -0.011548168957233429
+    },
+    {
+      "name": "sapphire",
+      "gap_mean": -0.010757789947092533
+    },
+    {
+      "name": "fifi",
+      "gap_mean": 0.00996410846710205
+    },
+    {
+      "name": "tommy",
+      "gap_mean": 0.009177180007100105
+    },
+    {
+      "name": "zara",
+      "gap_mean": 0.008389115333557129
+    },
+    {
+      "name": "ben",
+      "gap_mean": -0.007490059826523066
+    },
+    {
+      "name": "faun",
+      "gap_mean": 0.0067614177241921425
+    },
+    {
+      "name": "hugo",
+      "gap_mean": -0.00674891471862793
+    },
+    {
+      "name": "see",
+      "gap_mean": 0.0064721317030489445
+    },
+    {
+      "name": "fan",
+      "gap_mean": 0.005686521530151367
+    },
+    {
+      "name": "wait",
+      "gap_mean": -0.002200996270403266
+    },
+    {
+      "name": "joyous",
+      "gap_mean": 0.00017829502758104354
+    }
+  ]
+}

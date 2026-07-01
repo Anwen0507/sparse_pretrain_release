@@ -1,0 +1,19 @@
+# Core dependencies for reproducing the report.
+# (Or just `pip install -e .`, which installs these from pyproject.toml.)
+torch>=2.0.0
+transformers>=4.35.0
+huggingface-hub>=0.16.0
+datasets>=2.14.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# Optional: CARBS hyperparameter sweeps (scripts/run_carbs_clean.py).
+# The default reproduction uses fixed hyperparameters via --skip-carbs.
+# carbs @ git+https://github.com/imbue-ai/carbs.git
+
+# Optional: Weights & Biases logging during pruning (disabled by default).
+# wandb>=0.16.0

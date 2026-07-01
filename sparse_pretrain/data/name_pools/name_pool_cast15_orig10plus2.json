@@ -1,0 +1,244 @@
+{
+  "rule": "orig10plus2 design (2026-06-11): train/val = the 10 original DummyPronounTask names (leo alex samuel jose peter / mia kim rita lily maria, as used by the legacy ss_d128_f1_pronoun run) + the next-most-frequent cast male (emmanuel, corpus_freq 303828 > luis 142523) and female (alice, 373621 > lena 336653 > anne 236543). Held-out = the remaining 3 cast names = fold 0 (anne lena luis), the three LEAST frequent in the cast. Only fold 0 is a designed split; folds 1-4 exist for schema compliance. Derived from name_pool_cast15.json (names/stats/gender lists identical, folds redefined).",
+  "provenance": {
+    "prompt": "Either don't give characters a name, or select from Mia, Alex, Jean, Samuel, Lily, Leo, Jose, Kim, Alice, Lena, Rita, Emmanuel, Anne, Peter, Maria or Luis",
+    "source": "github.com/simple-stories/simple_stories_generate generate_stories.py",
+    "paper": "arXiv:2504.09184",
+    "prompt_cast": [
+      "Mia",
+      "Alex",
+      "Jean",
+      "Samuel",
+      "Lily",
+      "Leo",
+      "Jose",
+      "Kim",
+      "Alice",
+      "Lena",
+      "Rita",
+      "Emmanuel",
+      "Anne",
+      "Peter",
+      "Maria",
+      "Luis"
+    ],
+    "derived_from": "name_pool_cast15.json",
+    "derived_date": "2026-06-11"
+  },
+  "gap_stats_from": {
+    "model": "jacobcd52/ss_d128_f1",
+    "n_templates": 34,
+    "artifact": "outputs/universality_pruning/name_pool_gap1.json"
+  },
+  "female": [
+    "mia",
+    "kim",
+    "rita",
+    "lily",
+    "alice",
+    "maria",
+    "lena",
+    "anne"
+  ],
+  "male": [
+    "leo",
+    "alex",
+    "samuel",
+    "jose",
+    "emmanuel",
+    "peter",
+    "luis"
+  ],
+  "balanced_female": [
+    "mia",
+    "kim",
+    "rita",
+    "lily",
+    "alice",
+    "maria",
+    "lena",
+    "anne"
+  ],
+  "balanced_male": [
+    "leo",
+    "alex",
+    "samuel",
+    "jose",
+    "emmanuel",
+    "peter",
+    "luis"
+  ],
+  "folds": [
+    [
+      "anne",
+      "lena",
+      "luis"
+    ],
+    [
+      "leo",
+      "maria",
+      "mia"
+    ],
+    [
+      "alex",
+      "kim",
+      "emmanuel"
+    ],
+    [
+      "jose",
+      "lily",
+      "alice"
+    ],
+    [
+      "peter",
+      "rita",
+      "samuel"
+    ]
+  ],
+  "per_name": {
+    "mia": {
+      "name": "mia",
+      "corpus_freq": 1182927,
+      "corpus_female_share": 0.919,
+      "ntok": 1,
+      "gap_mean": 3.820030689239502,
+      "consistency": 1.0,
+      "binary_ce": 0.029800478368997574
+    },
+    "kim": {
+      "name": "kim",
+      "corpus_freq": 820576,
+      "corpus_female_share": 0.861,
+      "ntok": 1,
+      "gap_mean": 3.160123825073242,
+      "consistency": 1.0,
+      "binary_ce": 0.05072731524705887
+    },
+    "rita": {
+      "name": "rita",
+      "corpus_freq": 514493,
+      "corpus_female_share": 0.886,
+      "ntok": 1,
+      "gap_mean": 3.484095811843872,
+      "consistency": 1.0,
+      "binary_ce": 0.03943081945180893
+    },
+    "lily": {
+      "name": "lily",
+      "corpus_freq": 483644,
+      "corpus_female_share": 0.901,
+      "ntok": 1,
+      "gap_mean": 3.72998309135437,
+      "consistency": 1.0,
+      "binary_ce": 0.03230993449687958
+    },
+    "alice": {
+      "name": "alice",
+      "corpus_freq": 373621,
+      "corpus_female_share": 0.887,
+      "ntok": 1,
+      "gap_mean": 3.4970951080322266,
+      "consistency": 1.0,
+      "binary_ce": 0.03890819847583771
+    },
+    "maria": {
+      "name": "maria",
+      "corpus_freq": 363410,
+      "corpus_female_share": 0.867,
+      "ntok": 1,
+      "gap_mean": 3.383852481842041,
+      "consistency": 1.0,
+      "binary_ce": 0.04260050132870674
+    },
+    "lena": {
+      "name": "lena",
+      "corpus_freq": 336653,
+      "corpus_female_share": 0.876,
+      "ntok": 1,
+      "gap_mean": 3.2912399768829346,
+      "consistency": 1.0,
+      "binary_ce": 0.04575151950120926
+    },
+    "anne": {
+      "name": "anne",
+      "corpus_freq": 236543,
+      "corpus_female_share": 0.857,
+      "ntok": 1,
+      "gap_mean": 3.3011436462402344,
+      "consistency": 1.0,
+      "binary_ce": 0.045775946229696274
+    },
+    "leo": {
+      "name": "leo",
+      "corpus_freq": 1104654,
+      "corpus_female_share": 0.121,
+      "ntok": 1,
+      "gap_mean": -3.844694137573242,
+      "consistency": 1.0,
+      "binary_ce": 0.02744988165795803
+    },
+    "alex": {
+      "name": "alex",
+      "corpus_freq": 901440,
+      "corpus_female_share": 0.12,
+      "ntok": 1,
+      "gap_mean": -3.9734771251678467,
+      "consistency": 1.0,
+      "binary_ce": 0.02455144375562668
+    },
+    "samuel": {
+      "name": "samuel",
+      "corpus_freq": 764503,
+      "corpus_female_share": 0.109,
+      "ntok": 1,
+      "gap_mean": -3.9921250343322754,
+      "consistency": 1.0,
+      "binary_ce": 0.02432471513748169
+    },
+    "jose": {
+      "name": "jose",
+      "corpus_freq": 357396,
+      "corpus_female_share": 0.129,
+      "ntok": 1,
+      "gap_mean": -3.8135788440704346,
+      "consistency": 1.0,
+      "binary_ce": 0.028422657400369644
+    },
+    "emmanuel": {
+      "name": "emmanuel",
+      "corpus_freq": 303828,
+      "corpus_female_share": 0.172,
+      "ntok": 1,
+      "gap_mean": -3.948185682296753,
+      "consistency": 1.0,
+      "binary_ce": 0.024808239191770554
+    },
+    "peter": {
+      "name": "peter",
+      "corpus_freq": 231873,
+      "corpus_female_share": 0.187,
+      "ntok": 1,
+      "gap_mean": -3.824673891067505,
+      "consistency": 1.0,
+      "binary_ce": 0.027930868789553642
+    },
+    "luis": {
+      "name": "luis",
+      "corpus_freq": 142523,
+      "corpus_female_share": 0.168,
+      "ntok": 1,
+      "gap_mean": -3.9160914421081543,
+      "consistency": 1.0,
+      "binary_ce": 0.025495480746030807
+    }
+  },
+  "control_no_gender_signal": {
+    "name": "jean",
+    "corpus_freq": 344623,
+    "corpus_female_share": 0.635,
+    "ntok": 1,
+    "gap_mean": 0.5902478098869324,
+    "consistency": null,
+    "binary_ce": null
+  }
+}
