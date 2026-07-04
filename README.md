@@ -21,6 +21,11 @@ core, whereas dense redundancy is finite and collapses through a phase transitio
 
 ## What's in this repository
 
+**Forked from [jacobcd52/sparse_pretrain_public](https://github.com/jacobcd52/sparse_pretrain_public)** —
+much of the code here (the `SparseGPT` model/config and the node-mask circuit
+pruning pipeline) originates from that codebase, which accompanies Gao et al.
+(2025); the exhaustion protocol, analysis, and plotting scripts are ours.
+
 This is the **interpretability / analysis** pipeline only. The two model
 checkpoints are Gao et al.'s and are downloaded from the HuggingFace Hub at
 runtime, so **nothing large ships here** — no model weights, datasets, or
@@ -295,6 +300,8 @@ python -m sparse_pretrain.scripts.metric_clustering_robustness
 
 Built on Gao et al. (2025), *Weight-sparse transformers have interpretable
 circuits*, whose checkpoints and node-mask pruning method this work analyzes.
+Much of the code is forked from
+[jacobcd52/sparse_pretrain_public](https://github.com/jacobcd52/sparse_pretrain_public).
 
 ## License
 
