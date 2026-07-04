@@ -35,3 +35,21 @@ include = ["sparse_pretrain*"]
 
 [tool.setuptools.package-data]
 sparse_pretrain = ["data/name_pools/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = [
+    "ignore::sklearn.exceptions.ConvergenceWarning",
+    "ignore:module 'sre_constants' is deprecated:DeprecationWarning",
+]
+
+[tool.coverage.run]
+source = ["sparse_pretrain"]
+omit = ["tests/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == .__main__.:",
+]

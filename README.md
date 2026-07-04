@@ -51,6 +51,24 @@ pip install "carbs @ git+https://github.com/imbue-ai/carbs.git"
 Requires Python ≥ 3.10 and a **CUDA GPU**. Set `HF_TOKEN` if you hit HuggingFace
 rate limits.
 
+## Testing
+
+```bash
+pip install pytest pytest-cov
+pytest                                   # full suite (~1 min on a GPU box)
+pytest --cov=sparse_pretrain             # with line coverage (~94%)
+```
+
+The suite is hermetic — no network, no HuggingFace downloads, no experiment
+outputs required. Models are tiny randomly-initialized `SparseGPT`s, tasks use
+a deterministic whitespace tokenizer, and the analysis/plot scripts run
+against synthetic experiment directories built in `tmp_path`. Multi-process
+seed workers are rerouted in-process, so even the iterative exhaustion
+protocol (`universality_pruning_experiment.py`) is exercised end to end on
+CPU. One file, `tests/test_analysis_scripts_cuda.py`, execs the nine
+mech-interp scripts that hardcode `device="cuda"`; those tests skip
+automatically on CPU-only machines, everything else is CPU-only by design.
+
 ## Models & data (auto-downloaded)
 
 | Kind | HuggingFace id | Used for |
